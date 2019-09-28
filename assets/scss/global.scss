@@ -1,0 +1,98 @@
+/* 
+  Domain: ---.ir
+  *****************************
+  Description: An Elearning platform to learn like pros 
+  ******************************************************
+  Authors: Tech-Devs
+  *****************************
+  Date: 28 September 2019
+  *****************************
+  Version: 1.0.0
+*/
+
+// ===============================
+// Base styles
+// ===============================
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #fff;
+  color: $default-font-color;
+  direction: rtl;
+  font-family: $default-font-family;
+  font-size: $default-font-size;
+  line-height: 1.5;
+  text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+}
+h1 {
+  font-family: inherit;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+a,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  & > li {
+    list-style: none;
+  }
+}
+
+input {
+  &::placeholder {
+    color: inherit;
+  }
+}
+
+// ===============================
+// Structural styles
+// ===============================
+
+.container {
+  max-width: $default-max-width;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
