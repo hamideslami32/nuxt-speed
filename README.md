@@ -1,4 +1,4 @@
-# elearning
+# Nuxt-Speed
 
 > My majestic Nuxt.js project
 
